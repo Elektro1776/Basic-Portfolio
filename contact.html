@@ -20,22 +20,25 @@
       </div>
     </div>
     <section class="mainContent container">
-      <div class="row">
+      <div>
         <div class="contentArea">
           <div class="headingContainer">
-            <h2 class="heading">About Me</h2>
+            <h2 class="heading">Contact Me</h2>
           </div>
           <div id="aboutContent">
             <form class="contactForm">
-              Name<br>
+              <text>Name<text><br>
               <input type="text" name="firstname" value="John Smith">
               <br>
-              Email:<br>
+              <text>Email:</text>
+              <br>
               <input type="text" name="lastname" value="example@gamil.com">
               <br>
-              <textarea id="formMessage" name="message" style="width: 100%; height: 150px;">Write your awesome message here:</textarea>
+              <text>Message:</text>
               <br>
-              <input id="submitButton" type="submit">
+              <textarea id="formMessage" name="message" style="width: 100%; height: 150px;"></textarea>
+              <br>
+              <button id="submitButton" type="button" onclick="alert('Email Sent!')"> Submit</button>
             </form>
           </div>
         </div>
