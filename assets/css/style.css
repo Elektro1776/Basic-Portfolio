@@ -14,6 +14,7 @@ html {
 }
 footer {
   background-color: #666666;
+  border-top: solid 2px #4aaaa5;
   min-height: 100px;
 }
 footer p {
